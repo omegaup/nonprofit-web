@@ -1,0 +1,211 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/container.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/grid.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/header.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/image.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/menu.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/divider.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/list.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/segment.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/dropdown.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/icon.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/transition.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/button.css">
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/transition.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/dropdown.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/visibility.js"></script>
+      <script src="js/google-analytics.js"></script>
+      <title>omegaUp contests and initiatives</title>
+      <script>
+         $(document)
+           .ready(function() {
+             // fix main menu to page on passing
+             $('.main.menu').visibility({ type: 'fixed' });
+
+             $('.overlay').visibility({ type: 'fixed', offset: 80 });
+
+             // lazy load images
+             $('.image').visibility({ type: 'image', transition: 'vertical flip in', duration: 500 });
+
+           });
+      </script>
+      <style type="text/css">
+         body {
+         background-color: #FFFFFF;
+         }
+         .main.container {
+         margin-top: 2em;
+         }
+         .main.menu {
+         margin-top: 4em;
+         border-radius: 0;
+         border: none;
+         box-shadow: none;
+         transition:
+         box-shadow 0.5s ease,
+         padding 0.5s ease
+         ;
+         }
+         .main.menu .item img.logo {
+         margin-right: 1.5em;
+         }
+         .overlay {
+         float: left;
+         margin: 0em 3em 1em 0em;
+         }
+         .overlay .menu {
+         position: relative;
+         left: 0;
+         transition: left 0.5s ease;
+         }
+         .main.menu.fixed {
+         background-color: #FFFFFF;
+         border: 1px solid #DDD;
+         box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+         }
+         .overlay.fixed .menu {
+         left: 800px;
+         }
+         .text.container .left.floated.image {
+         margin: 2em 2em 2em -4em;
+         }
+         .text.container .right.floated.image {
+         margin: 2em -4em 2em 2em;
+         }
+         .ui.footer.segment {
+         margin: 5em 0em 0em;
+         padding: 5em 0em;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="ui borderless main menu">
+         <div class="ui text container">
+            <div href="/" class="header item">
+               <img class="logo" src="img/subpages/logo.png">
+               omegaUp.org
+            </div>
+            <!--
+            <a href="#contests" class="item">Contests</a>
+            <a href="#initiatives" class="item">Initiatives</a>
+
+
+
+
+
+            -->
+         </div>
+      </div>
+
+<div class="ui text container segment">
+   <h1>Hi and welcome to omegaUp</h1>
+   <a name="initiatives" />
+      <img class="ui  left floated image" data-src="img/subpages/mujer.png">
+      <p>
+         We are glad that you are here! This page serves as a reference for new volunteers, full time employees and trustees, it complements the New Volunteer Orientations which takes place on the 
+   <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NHMyNHZ2OWRzcmJobDhwaTNmMGE2c2R2ZXRfMjAxNzEwMDVUMDAwMDAwWiBvbWVnYXVwLmNvbV9pbmE3cXN1Y2EwM3NjbDRpOHZyc2NqbDE3OEBn&amp;tmsrc=omegaup.com_ina7qsuca03scl4i8vrscjl178%40group.calendar.google.com">first Wednesday of every month</a>.
+   </p>
+   <p>
+      omegaUp is 501(c)(3) non-profit registered in the state of Washington since 7/12/2016. The omegaUp project itself started way back in 2011 but it was until 2016 that we actually became an organization. One of the most important parts of being an incorporated organziation is writing the by-laws. The provisions contained in this document contain information central to the organization, they provide a practical yet formal set of rules for the orderly operation. Pleas familiarize with the by-laws :
+   </p>
+   <a target="_blank" href="https://docs.google.com/document/d/1MhuN-NwpsPI-ICbemvcTMmlzQuP5LQEBIzhsL6ppqxk/"><button class="ui yellow button">Open By-Laws</button></a>
+   <p>A less formal document is the letter to trustees. This brief guide has the basic information you’ll need to understand how the board works and has some tips that will help you increase your impact as a director. This guide is extracted from “Inside the Nonprofit Boardroom” by Charles William Golding and Craig W. Stewart. It is intented for directors, but all volunteers can benefit from understanding how the board of directors operates.
+   </p>
+   <a target="_blank" href="https://docs.google.com/document/d/1a26w3yPHOZOvTlqOcE96n0NekVOG1cFTH_M3CXwZE0g/edit"><button class="ui yellow button">Open letter to trustees</button></a>
+   <img class="ui  right floated image" data-src="img/subpages/mujer2.png">
+   <h1>Communication tools</h1>
+   <p>Being a distributed organization we rely on electronic communication . Once you have access to your @omegaup.com account, you'll be able to login to slack.</p>
+   <a target="_blank" href="https://omegauporg.slack.com/"><button class="ui yellow button">Open Slack</button></a>
+
+   <div class="ui list">
+      <div class="item">
+         <i class="Trello marker icon"></i> 
+         <div class="content">
+            <a class="header" target="_blank" href="https://trello.com/omegaup">Trello</a>
+            <div class="description">Trello is how we keep track of all the activities and tasks that need to get done.</div>
+         </div>
+      </div>
+      <div class="item">
+         <i class="Sticky Note marker icon"></i> 
+         <div class="content">
+            <a class="header" target="_blank" href="https://d.docs-df.live.net/f3cc87f1cbe7befb/Documentos/OmegaUp/">OneNote</a>
+         </div>
+      </div>
+      <div class="item">
+         <i class="map marker icon"></i> 
+         <div class="content">
+            <a class="header" target="_blank" href="https://omegaup.com">omegaup.com</a>
+            <div class="description">This is our plaftorm, the page where users create and participate in competitions as well as practice.</div>
+         </div>
+      </div>
+      <div class="item">
+         <i class="map marker icon"></i> 
+         <div class="content">
+            <a class="header" target="_blank" href="https://omegaup.org">omegaup.org</a>
+            <div class="description">This is the site you are in right now, the .org is the page for the non-profit.</div>
+         </div>
+      </div>
+      <div class="item">
+         <i class="Twitter marker icon"></i> 
+         <div class="content">
+            <a class="header" target="_blank" href="https://twitter.com/omegaUp">Twitter</a>
+            <div class="description">Please follow the twitter accout, typically this is where we post notifications about downtimes with the platform.</div>
+         </div>
+      </div>
+      <div class="item">
+         <i class="facebook f marker icon"></i> 
+         <div class="content">
+            <a class="header" target="_blank" href="https://www.facebook.com/omegaup">Facebook</a>
+            <div class="description">Facebook is the main way in which we communicate with our community.</div>
+         </div>
+      </div>
+      <div class="item">
+         <i class="Linkedin Square marker icon"></i> 
+         <div class="content">
+            <a class="header" target="_blank" href="https://www.linkedin.com/company-beta/16244586/">LinkedIn</a>
+         </div>
+      </div>
+      <div class="item">
+         <i class="Github marker icon"></i> 
+         <div class="content">
+            <a class="header" target="_blank" href="https://github.com/omegaup/omegaup">GitHub</a>
+            <div class="description">This is where we host our source code.</div>
+         </div>
+      </div>
+      <div class="item">
+         <i class="Wait marker icon"></i> 
+         <div class="content">
+            <a class="header" target="_blank" href="https://tracker.toptal.com/app/web-tracker">TopTracker</a>
+            <div class="description">It's very important to track the time you volunteer, this is the tool we use to do so.</div>
+         </div>
+      </div>
+   </div>
+
+   <h1>Operations</h1>
+<p>
+OKRs stands for Objetives and Key Results. This is how we define objetives, what are we supposed to do to achieve the objetives in a measurable way.
+</p>
+   <a target="_blank" href="https://docs.google.com/document/d/1aniMxApZaQc-aRWrsg_iB9CDRY0esXekOGIp4S4EiCE/edit#heading=h.jd9bc5b8hoah"><button class="ui yellow button">Open omegaUp OKRs</button></a>
+
+<!--
+Que es omegaUp?
+https://docs.google.com/presentation/d/1YiNL0zh2pKHwHt6z-a44acuMcw61xokRaRlj9MmoiII/edit#slide=id.g21b6d506c9_0_301
+
+Miguel Romero:
+https://docs.google.com/presentation/d/176V-CGTPxZXiQaWBl5h2Tx0vjPwa2eXnTNSkfuyGqhs/edit#slide=id.gc6f73a04f_0_0
+
+OmegaUp. Conociendo la plataforma Mexicana de Jueceo en línea de problemas de programación:
+https://www.youtube.com/watch?v=bYDTwLVuO04&index=2&list=PLnLzwYW6HOC6TUH42f_V7kh_KufAc6R5B
+
+
+La última conferencia que dimos: https://youtu.be/hOFMmZKa6Qc (inicia en el minuto 15, lol, detalles técnicos y 1:15 cantan la canción del grupo :P ) y el feedback que tuvimos: https://docs.google.com/a/omegaup.com/spreadsheets/d/1QpkJebhdiaTmA1tAkBLjmb4jD1ddMnLBaZESXsxp17Q/edit?usp=sharing 
+
+Leyendo un poco del feedback te puedes dar cuenta del impacto positivo que iniciativas como esta pueden tener en la carrera de los alumnos.
+
+5. Nuestras juntas del board (no son necesario verlas, sólo FYI): https://www.youtube.com/playlist?list=PLdSCJwXErQ8F26b_MYzxny2Qa_ulM5r_z
+-->
+</div>
+   </body>
+</html>
