@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
    <head>
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/container.css">
@@ -17,68 +18,16 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/dropdown.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/components/visibility.js"></script>
       <script src="js/google-analytics.js"></script>
-      <title>omegaUp contests and initiatives</title>
+      <title>Welcome to omegaUp</title>
       <script>
          $(document)
            .ready(function() {
-             // fix main menu to page on passing
              $('.main.menu').visibility({ type: 'fixed' });
-
              $('.overlay').visibility({ type: 'fixed', offset: 80 });
-
-             // lazy load images
              $('.image').visibility({ type: 'image', transition: 'vertical flip in', duration: 500 });
-
            });
       </script>
-      <style type="text/css">
-         body {
-         background-color: #FFFFFF;
-         }
-         .main.container {
-         margin-top: 2em;
-         }
-         .main.menu {
-         margin-top: 4em;
-         border-radius: 0;
-         border: none;
-         box-shadow: none;
-         transition:
-         box-shadow 0.5s ease,
-         padding 0.5s ease
-         ;
-         }
-         .main.menu .item img.logo {
-         margin-right: 1.5em;
-         }
-         .overlay {
-         float: left;
-         margin: 0em 3em 1em 0em;
-         }
-         .overlay .menu {
-         position: relative;
-         left: 0;
-         transition: left 0.5s ease;
-         }
-         .main.menu.fixed {
-         background-color: #FFFFFF;
-         border: 1px solid #DDD;
-         box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-         }
-         .overlay.fixed .menu {
-         left: 800px;
-         }
-         .text.container .left.floated.image {
-         margin: 2em 2em 2em -4em;
-         }
-         .text.container .right.floated.image {
-         margin: 2em -4em 2em 2em;
-         }
-         .ui.footer.segment {
-         margin: 5em 0em 0em;
-         padding: 5em 0em;
-         }
-      </style>
+      <link rel="stylesheet" type="text/css" href="css/simplepage.css">
    </head>
    <body>
       <div class="ui borderless main menu">
@@ -87,15 +36,6 @@
                <img class="logo" src="img/subpages/logo.png">
                omegaUp.org
             </div>
-            <!--
-            <a href="#contests" class="item">Contests</a>
-            <a href="#initiatives" class="item">Initiatives</a>
-
-
-
-
-
-            -->
          </div>
       </div>
 
@@ -104,19 +44,16 @@
    <a name="initiatives" />
       <img class="ui  left floated image" data-src="img/subpages/mujer.png">
       <p>
-         We are glad that you are here! This page serves as a reference for new volunteers, full time employees and trustees, it complements the New Volunteer Orientations which takes place on the 
+We are glad that you are here! This page serves as a reference for new volunteers, full time employees and trustees, it complements the New Volunteer Orientations which takes place on the 
    <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NHMyNHZ2OWRzcmJobDhwaTNmMGE2c2R2ZXRfMjAxNzEwMDVUMDAwMDAwWiBvbWVnYXVwLmNvbV9pbmE3cXN1Y2EwM3NjbDRpOHZyc2NqbDE3OEBn&amp;tmsrc=omegaup.com_ina7qsuca03scl4i8vrscjl178%40group.calendar.google.com">first Wednesday of every month</a>.
    </p>
-   <p>
-      omegaUp is 501(c)(3) non-profit registered in the state of Washington since 7/12/2016. The omegaUp project itself started way back in 2011 but it was until 2016 that we actually became an organization. One of the most important parts of being an incorporated organziation is writing the by-laws. The provisions contained in this document contain information central to the organization, they provide a practical yet formal set of rules for the orderly operation. Pleas familiarize with the by-laws :
-   </p>
+   <p>omegaUp is 501(c)(3) non-profit registered in the state of Washington since 7/12/2016. The omegaUp project itself started way back in 2011 but it was until 2016 that we became an organization. One of the most important parts of being an incorporated organization is writing the by-laws. The provisions contained in this document contain information central to the organization, they provide a practical yet formal set of rules for the orderly operation. Pleas familiarize with the by-laws:</p>
    <a target="_blank" href="https://docs.google.com/document/d/1MhuN-NwpsPI-ICbemvcTMmlzQuP5LQEBIzhsL6ppqxk/"><button class="ui yellow button">Open By-Laws</button></a>
-   <p>A less formal document is the letter to trustees. This brief guide has the basic information you’ll need to understand how the board works and has some tips that will help you increase your impact as a director. This guide is extracted from “Inside the Nonprofit Boardroom” by Charles William Golding and Craig W. Stewart. It is intented for directors, but all volunteers can benefit from understanding how the board of directors operates.
-   </p>
+   <p>A less formal document is the letter to trustees. This brief guide has the basic information you’ll need to understand how the board works and has some tips that will help you increase your impact as a director. This guide is extracted from “Inside the Nonprofit Boardroom” by Charles William Golding and Craig W. Stewart. It is intended for directors, but all volunteers can benefit from understanding how the board of directors operates.</p>
    <a target="_blank" href="https://docs.google.com/document/d/1a26w3yPHOZOvTlqOcE96n0NekVOG1cFTH_M3CXwZE0g/edit"><button class="ui yellow button">Open letter to trustees</button></a>
    <img class="ui  right floated image" data-src="img/subpages/mujer2.png">
    <h1>Communication tools</h1>
-   <p>Being a distributed organization we rely on electronic communication . Once you have access to your @omegaup.com account, you'll be able to login to slack.</p>
+   <p>Being a distributed organization, we rely on electronic communication. Once you have access to your @omegaup.com account, you'll be able to login to slack.</p>
    <a target="_blank" href="https://omegauporg.slack.com/"><button class="ui yellow button">Open Slack</button></a>
 
    <div class="ui list">
@@ -131,6 +68,14 @@
          <i class="Sticky Note marker icon"></i> 
          <div class="content">
             <a class="header" target="_blank" href="https://d.docs-df.live.net/f3cc87f1cbe7befb/Documentos/OmegaUp/">OneNote</a>
+            <div class="description"></div>
+         </div>
+      </div>
+      <div class="item">
+         <i class="Sticky Note marker icon"></i> 
+         <div class="content">
+            <a class="header" target="_blank" href="https://enterpos.net/omegaup/g/">EnterPOS</a>
+            <div class="description">Information management system which centralizes customer information.</div>
          </div>
       </div>
       <div class="item">
@@ -151,14 +96,12 @@
          <i class="Twitter marker icon"></i> 
          <div class="content">
             <a class="header" target="_blank" href="https://twitter.com/omegaUp">Twitter</a>
-            <div class="description">Please follow the twitter accout, typically this is where we post notifications about downtimes with the platform.</div>
          </div>
       </div>
       <div class="item">
          <i class="facebook f marker icon"></i> 
          <div class="content">
             <a class="header" target="_blank" href="https://www.facebook.com/omegaup">Facebook</a>
-            <div class="description">Facebook is the main way in which we communicate with our community.</div>
          </div>
       </div>
       <div class="item">
@@ -171,7 +114,7 @@
          <i class="Github marker icon"></i> 
          <div class="content">
             <a class="header" target="_blank" href="https://github.com/omegaup/omegaup">GitHub</a>
-            <div class="description">This is where we host our source code.</div>
+            <div class="description">This is where we host the source code for our various systems, this page itself is hosted here.</div>
          </div>
       </div>
       <div class="item">
@@ -185,12 +128,12 @@
 
    <h1>Operations</h1>
 <p>
-OKRs stands for Objetives and Key Results. This is how we define objetives, what are we supposed to do to achieve the objetives in a measurable way.
+OKRs stands for Objectives and Key Results. This is how we define objectives, what are we supposed to do to achieve the objectives in a measurable way.
 </p>
    <a target="_blank" href="https://docs.google.com/document/d/1aniMxApZaQc-aRWrsg_iB9CDRY0esXekOGIp4S4EiCE/edit#heading=h.jd9bc5b8hoah"><button class="ui yellow button">Open omegaUp OKRs</button></a>
 
 <!--
-Que es omegaUp?
+Content to add later:
 https://docs.google.com/presentation/d/1YiNL0zh2pKHwHt6z-a44acuMcw61xokRaRlj9MmoiII/edit#slide=id.g21b6d506c9_0_301
 
 Miguel Romero:
