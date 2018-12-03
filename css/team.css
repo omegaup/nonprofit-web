@@ -17,7 +17,6 @@
 @media (max-width: 992px) {
     .reel-content {
         left: 0;
-        padding-left: 30px;
         position: absolute;
         width: 100%
     }
@@ -37,10 +36,6 @@
     min-width: 130px;
     padding-bottom: 30px;
     text-align: center
-}
-
-.team-member:last-child {
-    margin-right: 0
 }
 
 .team-member img {
@@ -114,11 +109,6 @@
 
 #style-7::-webkit-scrollbar-thumb
 {
-	border-radius: 10px;
-	background-image: -webkit-gradient(linear,
-									   left bottom,
-									   left top,
-									   color-stop(0.44, rgb(122,153,217)),
-									   color-stop(0.72, rgb(73,125,189)),
-									   color-stop(0.86, rgb(28,58,148)));
+    border-radius: 10px;
+    background-color: #4670B5;
 }
