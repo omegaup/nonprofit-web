@@ -30,6 +30,11 @@
     height: 350px !important
 }
 
+.team-link {
+    font-size: smaller;
+    padding: 0;
+}
+
 .team-member {
     height: auto;
     margin-right: 60px;
