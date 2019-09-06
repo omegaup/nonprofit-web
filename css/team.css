@@ -117,3 +117,11 @@
     border-radius: 10px;
     background-color: #4670B5;
 }
+
+.description {
+    font-weight: bold  !important;
+    background-color: white;
+    color: black !important;
+    padding: 16px;
+    border-radius: 33px;
+}
