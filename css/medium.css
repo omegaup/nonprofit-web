@@ -1,0 +1,12 @@
+#rtb {
+    height: 80px;
+    top: -205px;
+}
+
+#rtb h2{
+   font-size: medium;
+ }
+
+ #rtb .author, .read-more{
+     display: none;
+ }
