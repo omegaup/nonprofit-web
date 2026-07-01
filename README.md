@@ -1,3 +1,11 @@
+# ⚠️ Notice
+
+> The current omegaUp.org website is no longer built from this repository. Fixes and updates to the live website are now managed in Wix.
+
+> Feel free to report issues related to the live website here, but please note that pull requests against this repository will generally not be merged, as this code is no longer used in production.
+
+> The rest of this repository is preserved for historical reference.
+
 # Quick Start
 
 Install node, then npm install, then gulp.
